@@ -24,7 +24,7 @@ pip install requests
 ### nhncloud_config.py 파일 수정
 먼저 config파일에 들어가 **TENANT_ID**, **USERNAME**, **PASSWORD**이 세 가지 설정값만 본인의 것으로 바꿔주면 된다.
 
-.env 파일이 없다면 생성 후 개인 정보 기입을 하는 것을 권장한다.
+cp
 
 ### 실행하기
 nhncloud_main.py 파일 실행

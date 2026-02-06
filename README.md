@@ -7,24 +7,23 @@ NHN Cloud 환경에서 **VPC, Subnet, Security Group, Key Pair, Instance**를 �
 - **Instance Type**: m2.c1m2
 
 ## 파일 구조
-- 'nhncloud_main.py': 전체 프로세스 제어 및 사용자 입력 처리
-- 'nhncloud_util.py': NHN Cloud API 호출 및 리소스 생성 로직
-- 'nhncloud_config.py': API 엔드포인트 및 사용자 인증 정보
+- `nhncloud_main.py`: 전체 프로세스 제어 및 사용자 입력 처리
+- `nhncloud_util.py`: NHN Cloud API 호출 및 리소스 생성 로직
+- `nhncloud_config.py`: API 엔드포인트 및 사용자 인증 정보
 
-## 사용하게된다면
+## 장점
 <img width="1024" height="1024" alt="Gemini_Generated_Image_8o47dn8o47dn8o47" src="https://github.com/user-attachments/assets/f886a80f-90c5-4fc6-bfec-0bf309e18977" />
 
 
 ## 시작하기
 
 ### 모듈 다운로드
-pip install requests
+- `pip install requests`
 
 
 ### nhncloud_config.py 파일 수정
-먼저 config파일에 들어가 **TENANT_ID**, **USERNAME**, **PASSWORD**이 세 가지 설정값만 본인의 것으로 바꿔주면 된다.
+- `cp ./20260205/.env.example ./20260205/.env`로 복사 후 `.env`파일 수정
 
-cp
-
+- `nhncloud_config.py`파일에 들어가 **TENANT_ID**, **USERNAME**, **PASSWORD**이 세 가지 설정값만 본인의 것으로 바꿔주면 된다.
 ### 실행하기
-nhncloud_main.py 파일 실행
+- `nhncloud_main.py` 파일 실행

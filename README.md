@@ -23,7 +23,5 @@ NHN Cloud 환경에서 **VPC, Subnet, Security Group, Key Pair, Instance**를 �
 
 ### .env 파일 설정
 - `cp ./20260205/.env.example ./20260205/.env`로 복사 후 `.env`파일 수정
-
-- `nhncloud_config.py`파일에 들어가 **TENANT_ID**, **USERNAME**, **PASSWORD**이 세 가지 설정값만 본인의 것으로 바꿔주면 된다.
 ### 실행하기
 - `nhncloud_main.py` 파일 실행
